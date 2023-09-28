@@ -46,7 +46,7 @@ function Contact () {
           <IoLogoWhatsapp className='contact_icon'/>
           <h4>What's App</h4>
           <h5>9013986111</h5>
-          <a href="whatsapp://send?text=Hello Rashmi!&phone=+9190139861111" target='blank'>send a message</a>
+          <a href="whatsapp://send?text=Hello Rashmi!&phone=+919013986111" target='blank'>send a message</a>
         </article>
         </div>
 
