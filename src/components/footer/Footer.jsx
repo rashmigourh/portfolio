@@ -17,7 +17,7 @@ function Footer() {
       <div className='footer_socials'>
       <a href="https://www.linkedin.com/in/rashmi-gourh-3bb46525b" target='blank'><BsLinkedin /></a>
       <a href="https://github.com/rashmigourh" target='blank'><BsGithub /></a>
-      <a href="tel:+91-9013774040" target='blank'><BsFillTelephoneFill /></a>
+      <a href="tel:+91-9013986111" target='blank'><BsFillTelephoneFill /></a>
       <a href="mailto:rashmigourh17@gmail.com"><BiLogoGmail /></a>
       <a href="whatsapp://send?text=Hello Rashmi!&phone=+9190139861111"><IoLogoWhatsapp /></a>
     </div>

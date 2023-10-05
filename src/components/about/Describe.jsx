@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../../assests/resume.pdf'
+import Resume from '../../assests/Rashmi Gourh-Resume.pdf'
 import './about.css'
 
 function Describe() {

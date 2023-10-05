@@ -7,6 +7,7 @@ import { MdVerified } from 'react-icons/md'
 import IMG1 from '../../assests/CodSoft.pdf'
 import IMG2 from '../../assests/IBM.pdf'
 import IMG3 from '../../assests/sheHacks.pdf'
+import IMG4 from '../../assests/CodSoft-Certificate.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -15,8 +16,8 @@ function Experience() {
     AOS.init({
       duration: 2000,
       offset: 100,
-      easing:'ease-in',
-      once:false
+      easing: 'ease-in',
+      once: false
     });
   }, []);
 
@@ -29,8 +30,8 @@ function Experience() {
         </div>
 
         <div className="container experience_container">
-        <VerticalTimeline lineColor='#8e54c5' layout={'1-column-left'} cursor={"default"} >
-          {/* codSoft */}
+          <VerticalTimeline lineColor='#8e54c5' layout={'1-column-left'} cursor={"default"} >
+            {/* codSoft */}
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentStyle={{ background: '#8e54c5', color: '#fff', cursor: 'default', borderBottom: '2px solid #fff' }}
@@ -46,6 +47,7 @@ function Experience() {
                 explored innovative solutions, gained industrial experience, tackled challenges head-on with an open mind and a strong work ethic.</p>
               <div className="button">
                 <a href={IMG1} target="new" className='exp_button'>Offer Letter</a>
+                <a href={IMG4} target="new" className='exp_button'>Certificate</a>
               </div>
             </VerticalTimelineElement>
 
@@ -60,9 +62,10 @@ function Experience() {
               icon={<MdVerified />}
             >
               <h3 className="vertical-timeline-element-title"> SheHacks hackathon</h3>
-              <p >Took part in SheHacks hackathon conducted by IIIT Allahabad. During this me and my teammates created a project 
-                "HelpX" a platform for women and children's safety by generating emergency alerts and we also got selected in the top 8 teams.</p>
-                <p className='extra'>Team Size: 3</p>
+              <p >Took part in SheHacks hackathon on women and children's safety, where we
+                created a website for emergency alerts. Also got selected in the top 8
+                teams.</p>
+              <p className='extra'>Team Size: 3</p>
               <div className="button">
                 <a href="https://help-x-alert-app.vercel.app/" target="new" className='exp_button'>Project Link</a>
                 <a href={IMG3} target="new" className='exp_button'>Certificate</a>
@@ -80,13 +83,13 @@ function Experience() {
               icon={<MdVerified />}
             >
               <h3 className="vertical-timeline-element-title">Ex-Vice President Of Avant Garde</h3>
-              <p>As vice president of Avant Garde-ADGITM, led a society of 70+ dedicated members, managing and overseeing all the department workings, events, 
-                and initiatives, and ensuring the successful execution of various events, workshops and art walks. This experience made me realise that leadership 
-                is not about wielding power, but about serving others and fostering an environment where everyone can thrive and contribute their best. 
+              <p>As vice president of Avant Garde-ADGITM, led a society of 70+ dedicated members, managing and overseeing all the department workings, events,
+                and initiatives, and ensuring the successful execution of various events, workshops and art walks. This experience made me realise that leadership
+                is not about wielding power, but about serving others and fostering an environment where everyone can thrive and contribute their best.
                 This process led to the enhancement of my, leadership, management and team-building qualities.</p>
             </VerticalTimelineElement>
-              
-              {/* Content head */}
+
+            {/* Content head */}
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentStyle={{ background: '#8e54c5', color: '#fff', cursor: 'default', borderBottom: '2px solid #fff' }}
@@ -99,9 +102,9 @@ function Experience() {
               <h3 className="vertical-timeline-element-title">Ex-Content department Head </h3>
               <p>As the leader of the content team, I had the privilege of guiding a talented group of people in my society under my leadership skills.
                 Through effective communication and strategic planning, we consistently delivered high-quality content for our society posts, for any events
-                 or competitions that engaged our target audience and increased our society reach. Navigating challenges such as tight deadlines and evolving trends,
-                  I fostered a collaborative environment that encouraged innovation and allowed each team member's strengths to shine. 
-                </p>
+                or competitions that engaged our target audience and increased our society reach. Navigating challenges such as tight deadlines and evolving trends,
+                I fostered a collaborative environment that encouraged innovation and allowed each team member's strengths to shine.
+              </p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement

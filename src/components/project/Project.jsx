@@ -15,7 +15,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: "FindLife",
-    para: 'FindLife is a healthcare responsive website which empower individuals by providing them the knowledge about various disease through cards and inform them about their health by predicting various illness and diseases (mainly done for heart stroke) the person is suffering from by using our prediction model.',
+    para: 'FindLife is a healthcare-responsive website which empowers individuals by providing them with knowledge about various diseases through cards and informing them about their health by predicting various illnesses and diseases (mainly done for heart stroke) using our prediction model.',
     tech: "TechStack: HTML, CSS, Javascript, Machine Learning, Phython, Flask",
     github: 'https://github.com/rashmigourh/findLife',
     demo: 'https://rashmigourh.github.io/findLife/'
@@ -24,7 +24,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: "BlissBite",
-    para: 'BlissBite is a food delivery responsive website which enable our customer to choose their favourite dishes out of variety of options. This website contains various food cards, with add to cart functionality, sending feedbacks with popup, sigUp and LogIn pages.',
+    para: 'BlissBite is a food delivery responsive website which enables our customer to choose their favourite dishes out of a variety of options. This website contains various food cards, with add-to-cart functionality, sending feedback with popup up, signup and log-in pages.',
     tech: "TechStack: HTML, CSS, Javascript",
     github: 'https://github.com/rashmigourh/BlissBite',
     demo: 'https://rashmigourh.github.io/BlissBite/'
@@ -33,35 +33,35 @@ const data = [
     id: 3,
     image: IMG3,
     title: "VoyageVista",
-    para: 'VoyageVista is a travelling and booking responvie website which enable our user to log in and see various destinations through customised cards and also provide various services and reviews from different customer.',
-    tech: "TechStack: HTML, CSS, Javascript",
-    github: 'https://github.com/rashmigourh/CodSoft-VoyageVista',
-    demo: 'https://rashmigourh.github.io/CodSoft-VoyageVista/'
+    para: 'VoyageVista is a travelling responsive website which enables our users to log in and see various destinations through customised cards and also provides various services and reviews from different customers. ',
+    tech: "TechStack: HTML5, CSS, Javascript",
+    github: 'https://github.com/rashmigourh/VoyageVista',
+    demo: 'https://rashmigourh.github.io/VoyageVista/'
   },
   {
     id: 4,
     image: IMG4,
     title: "Calculator",
-    para: 'Inbuild responsive calculator with a beautiful background theme  which performs various basic arithmetic operations along with some advance calculations like factorial, log values, angles in radian and degree along with trigonometric functions like sin, cos and tan',
-    tech: "TechStack: HTML, CSS, Javascript",
-    github: 'https://github.com/rashmigourh/CodSoft-Calculator',
-    demo: 'https://rashmigourh.github.io/CodSoft-Calculator/'
+    para: 'Inbuild responsive calculator with a beautiful background theme which performs various basic arithmetic operations along with some advanced calculations like factorial, log values, angles in radian and degrees along with trigonometric functions like sin, cos and tan. ',
+    tech: "TechStack: HTML5, CSS, Javascript",
+    github: 'https://github.com/rashmigourh/Calculator',
+    demo: 'https://rashmigourh.github.io/Calculator/'
   },
   {
     id: 5,
     image: IMG5,
     title: "TextUtils",
-    para: 'TextUtils is a responsive web counter and character counting utility which can be used to manipulate your text in the way you want. It contains various functionality like remove extra spaces, lower to uppercase and vice versa, converting text to speech and many more along with dark and light mode.',
-    tech: "TechStack: React, Bootstrap, Javascript",
+    para: 'TextUtils is a responsive web counter and character counting utility which can be used to manipulate your text in the way you want. It contains various functionalitieslike removing extra spaces, lower to uppercase and vice versa, converting text tospeech and many more along with dark and light modes.',
+    tech: "TechStack: React, Bootstrap, Javascript, CSS",
     github: 'https://github.com/rashmigourh/TextUtils',
-    demo: 'https://github.com/rashmigourh/TextUtils'
+    demo: 'https://rashmigourh.github.io/TextUtils/'
   },
   {
     id: 6,
     image: IMG6,
     title: "GymOn",
     para: "GymOn is a responsive gym website which enables it's customers make membership plans by providing Details of various membership options, including pricing, benefits, and contract terms.Provide a schedule for group fitness classes and instructors. Mentions nutrition counseling or meal planning services and many more.",
-    tech: "TechStack: HTML, CSS, Javascript",
+    tech: "TechStack: HTML5, CSS, Javascript",
     github: 'https://github.com/rashmigourh/GymWebsite/blob/main/README.md',
     demo: 'https://github.com/rashmigourh/GymWebsite/blob/main/README.md'
   }
