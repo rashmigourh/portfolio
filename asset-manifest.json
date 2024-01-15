@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eb0b2258.css",
-    "main.js": "/portfolio/static/js/main.c53b8720.js",
+    "main.css": "/portfolio/static/css/main.037dea25.css",
+    "main.js": "/portfolio/static/js/main.300e06e5.js",
     "static/js/496.eefed8e2.chunk.js": "/portfolio/static/js/496.eefed8e2.chunk.js",
     "static/media/food.png": "/portfolio/static/media/food.2e775487fa36b0de15c0.png",
     "static/media/Gym.png": "/portfolio/static/media/Gym.27ea2624da9b24c46fd6.png",
     "static/media/travel.png": "/portfolio/static/media/travel.4e7f065776fb5f543a1f.png",
     "static/media/medical.png": "/portfolio/static/media/medical.89f02d0f40a7a02a6f08.png",
+    "static/media/Shop.png": "/portfolio/static/media/Shop.ad5be3e091df9a1d883c.png",
     "static/media/calculator.png": "/portfolio/static/media/calculator.098b0b01a6e6be75a7b1.png",
     "static/media/textUtils.png": "/portfolio/static/media/textUtils.5173ae6b1c88e3e4c8b9.png",
     "static/media/CodSoft-Certificate.pdf": "/portfolio/static/media/CodSoft-Certificate.9a0c1cf48dc685d7d7ea.pdf",
     "static/media/CodSoft.pdf": "/portfolio/static/media/CodSoft.81f72072fed158e72d56.pdf",
     "static/media/IBM.pdf": "/portfolio/static/media/IBM.f0e9a5e3d458199e3142.pdf",
     "static/media/Rashmi Gourh-Resume.pdf": "/portfolio/static/media/Rashmi Gourh-Resume.db1bfa92277cff9299a3.pdf",
+    "static/media/Elewayte.pdf": "/portfolio/static/media/Elewayte.11a95263f2a4b47835e7.pdf",
     "static/media/sheHacks.pdf": "/portfolio/static/media/sheHacks.a6a0af1a10aad2782084.pdf",
     "static/media/rashmi.jpeg": "/portfolio/static/media/rashmi.50e1a95fe25cc479cdc4.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.eb0b2258.css.map": "/portfolio/static/css/main.eb0b2258.css.map",
-    "main.c53b8720.js.map": "/portfolio/static/js/main.c53b8720.js.map",
+    "main.037dea25.css.map": "/portfolio/static/css/main.037dea25.css.map",
+    "main.300e06e5.js.map": "/portfolio/static/js/main.300e06e5.js.map",
     "496.eefed8e2.chunk.js.map": "/portfolio/static/js/496.eefed8e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb0b2258.css",
-    "static/js/main.c53b8720.js"
+    "static/css/main.037dea25.css",
+    "static/js/main.300e06e5.js"
   ]
 }
