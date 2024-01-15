@@ -13,7 +13,7 @@ const data =[
     date:"2020 - 2024",
     title: "Dr. Akhilesh Das Gupta Institute of Technology & Management",
     subtitle: 'B.Tech. - Computer Science & Engineering ',
-    marks: 'Percentage: 94.89 / 100.00'
+    marks: 'Equivalent Percentage: 94.8 / 100.00'
   },
   {
     id: 2,

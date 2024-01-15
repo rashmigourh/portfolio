@@ -8,6 +8,7 @@ import IMG1 from '../../assests/CodSoft.pdf'
 import IMG2 from '../../assests/IBM.pdf'
 import IMG3 from '../../assests/sheHacks.pdf'
 import IMG4 from '../../assests/CodSoft-Certificate.pdf'
+import IMG5 from '../../assests/Elewayte.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -30,8 +31,26 @@ function Experience() {
         </div>
 
         <div className="container experience_container">
+
           <VerticalTimeline lineColor='#8e54c5' layout={'1-column-left'} cursor={"default"} >
-            {/* codSoft */}
+            {/* Elewayte Web Development Course */}
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              contentStyle={{ background: '#8e54c5', color: '#fff', cursor: 'default', borderBottom: '2px solid #fff' }}
+              contentArrowStyle={{ borderRight: '7px solid  #8e54c5', cursor: 'default' }}
+              date={"Duration: 12 August 2023 - 08 September 2023"}
+              iconStyle={{ background: '#8e54c5', color: '#fff', cursor: 'default' }}
+              position={"right"}
+              icon={<MdVerified />}
+            >
+              <h3 className="vertical-timeline-element-title">Elewayte Web Development Course Completion</h3>
+              <p>This course provided me with a valuable opportunity to delve extensively into the details of web development and comprehend the underlying principles governing its functionality. Within this timeframe of the course, I acquired a comprehensive understanding of the operational mechanisms, delving into various concepts and techniques with considerable depth.
+                Confronting challenges with a resilient mindset and a diligent work ethic, I approached each obstacle with an open mind. My assimilation of knowledge was manifested through the implementation of acquired skills in the creation of diverse projects.</p>
+              <div className="button">
+                <a href={IMG5} target="new" className='exp_button'>Course Completion Certificate</a>
+              </div>
+            </VerticalTimelineElement>
+
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentStyle={{ background: '#8e54c5', color: '#fff', cursor: 'default', borderBottom: '2px solid #fff' }}
@@ -107,6 +126,7 @@ function Experience() {
               </p>
             </VerticalTimelineElement>
 
+            {/* IBM Summer Training */}
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentStyle={{ background: '#8e54c5', color: '#fff', cursor: 'default', borderBottom: '2px solid #fff' }}

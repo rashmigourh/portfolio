@@ -6,7 +6,9 @@ import IMG2 from '../../assests/food.png'
 import IMG3 from '../../assests/travel.png'
 import IMG4 from '../../assests/calculator.png'
 import IMG5 from '../../assests/textUtils.png'
-import IMG6 from '../../assests/Gym.png'
+import IMG6 from '../../assests/Shop.png'
+import IMG7 from '../../assests/Gym.png'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -59,6 +61,15 @@ const data = [
   {
     id: 6,
     image: IMG6,
+    title: "FurniShop",
+    para:'FurniShop is a web application developed using React, featuring a responsive design. This platform allows users to log in and explore a diverse collection of furniture items presented through personalized cards. The website boasts an aesthetically pleasing interface, characterized by captivating themes and colors that are entirely customizable to enhance user experience.',
+    tech: "TechStack: Reactjs, CSS, Javascript",
+    github: 'https://github.com/rashmigourh/FurniShop',
+    demo: 'https://rashmigourh.github.io/FurniShop/'
+  },
+  {
+    id: 7,
+    image: IMG7,
     title: "GymOn",
     para: "GymOn is a responsive gym website which enables it's customers make membership plans by providing Details of various membership options, including pricing, benefits, and contract terms.Provide a schedule for group fitness classes and instructors. Mentions nutrition counseling or meal planning services and many more.",
     tech: "TechStack: HTML5, CSS, Javascript",

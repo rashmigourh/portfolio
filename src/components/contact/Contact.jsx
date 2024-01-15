@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 import { useEffect } from 'react'
 import {BsLinkedin} from 'react-icons/bs'
-import {IoLogoWhatsapp} from 'react-icons/io'
+import { MdAddCall } from "react-icons/md";
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 import AOS from 'aos';
@@ -43,10 +43,10 @@ function Contact () {
         </article>
 
         <article className="contact_options">
-          <IoLogoWhatsapp className='contact_icon'/>
-          <h4>What's App</h4>
-          <h5>9013986111</h5>
-          <a href="whatsapp://send?text=Hello Rashmi!&phone=+919013986111" target='blank'>send a message</a>
+        <MdAddCall className='contact_icon'/>
+          <h4>Contact Number</h4>
+          <h5>+91-9013986111</h5>
+          <a href="whatsapp://send?text=Hello Rashmi!&phone=+919013986111" target='blank'>Dial a call</a>
         </article>
         </div>
 

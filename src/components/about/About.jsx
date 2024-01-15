@@ -20,7 +20,7 @@ function About() {
     return () => { clearInterval(ticker) };
   }, [text])
 
-  // to moce our text one by one
+  // to mock our text one by one
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
